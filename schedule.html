@@ -1,0 +1,123 @@
+
+
+
+<head>
+     <title>Ray Yoga</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="assets/stylesheets/landing.css">
+ <link rel="stylesheet" href="assets/stylesheets/schedule.css">
+ <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/b478047b8b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <section class="section1">
+    <sidebar>
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage3.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage7.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage6.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage8.png"  width="600" height="790">
+    </sidebar>
+
+    <mainbar>
+        <main1>
+        <a href="index.html"><img class="logo"src="assets/images/RaYoga1.png"  width="150" height="150"></a>
+        <h1>Ray</h1>
+        <h3> Yoga</h3>
+        </main1>
+        <main2>
+            <div class="nav-bar">
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="index.html">Classes</a>
+          
+                  <ul class="dropdown">
+                      <li><a href="description.html">All Classes</a></li>
+                      <li><a href="schedule.html">Schedule</a></li>
+                      
+                  </ul>
+            </li>
+           <li><a href="photos.html">Gallery</a></li>
+           <li><a href="reviews.html">Reviews</a></li>
+           <li><a href="about.html">About</a></li>
+        </ul>
+         
+    </div>
+   
+ </main2>
+ <main3><h3 class="message"><p id="head-line">"Namaste and Welcome to Ray Yoga!"</p>
+ <p>"The way of living towards a healthy mind in a healthy body!
+ Breathing techniques and meditation along with the exercises!</p>
+ <p>Your body can do it, its your mind you need to convince!</p>
+ 
+ <p>Stretch your stress with our virtual classes during COVID-19!"</p>
+ <p>We provide group classes.</p>
+ 
+ </h3></main3>
+    </mainbar>
+   </section>
+   <section class="section-sche2">
+       <div class="container">
+       <div class="msg"> <h3>Never Stress Over What You Cannot Control! COVID-19 classes new timings! Virtual classes available!</h3></div>
+      
+       <div class="item">
+                 <div class="dnt">
+                <div class="day"><h3>Sunday</h3></div>
+                <div class="time"><p>11:30am-12:30pm</p></div>
+                </div>
+               <div class="text"><p>Adult Yoga Class</p></div>
+              
+          </div>    
+        <div class="item">
+             
+                   <div class="dnt">
+                <div class="day"><h3>Sunday</h3></div>
+                <div class="time"><p>5:00-6:00pm</p></div>
+                </div>
+               <div class="text"><p>Kids Yoga Class</p></div>
+              
+            </div> 
+        
+        <div class="item">
+            <div class="dnt">
+                <div class="day"><h3>Thursday</h3></div>
+                <div class="time"><p>6:15-7:15pm</p></div>
+                </div>
+               <div class="text"><p>Adult Yoga Class</p></div>
+              </div> 
+              
+              
+              
+              <div class="item">
+            <div class="dnt">
+                <div class="day"><h3>Saturday</h3></div>
+                <div class="time"><p>7:30-8:30am</p></div>
+                </div>
+               <div class="text"><p>Adult Yoga Class</p></div>
+              </div>
+                 
+
+
+      </div>
+   </section>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000);    
+}
+</script>
+
+</body>

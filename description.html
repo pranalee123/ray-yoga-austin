@@ -1,0 +1,131 @@
+
+
+<head>
+     <title>Ray Yoga</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="assets/stylesheets/landing.css">
+ <link rel="stylesheet" href="assets/stylesheets/description.css">
+ <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/b478047b8b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <section class="section1">
+    <sidebar>
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage3.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage7.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage6.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage8.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage9.png"  width="600" height="790">
+    </sidebar>
+
+    <mainbar>
+        <main1>
+         <a href="index.html"><img class="logo"src="assets/images/RaYoga1.png"  width="150" height="150"></a>
+        <h1>Ray</h1>
+        <h3> Yoga</h3>
+        </main1>
+        <main2>
+            <div class="nav-bar">
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="index.html">Classes</a>
+          
+                  <ul class="dropdown">
+                      <li><a href="description.html">All Classes</a></li>
+                      <li><a href="schedule.html">Schedule</a></li>
+                      
+                  </ul>
+            </li>
+           <li><a href="photos.html">Gallery</a></li>
+           <li><a href="reviews.html">Reviews</a></li>
+           <li><a href="about.html">About</a></li>
+        </ul>
+         
+    </div>
+   
+ </main2>
+ <main3><h3 class="message"><p>"Yoga is the only exercise in the world you can do at any age. Don't let age dictate
+ what you can and cannot do!</p>
+ <p>Come and join us to learn the science of integrating body, mind and soul!"</p>
+ <p>We provide group classes.</p>
+ <p>"The light that yoga sheds on life is something special. It is transformative. It does not just change the way we see things; it transforms the person who sees."</p>
+ <p id="guru-name">-B.K.S. Iyengar</p>
+ <p id="blink">Virtual classes available!</p>
+ </h3></main3>
+    </mainbar>
+   </section>
+   <section class="section-desc2">
+       <div class="container">
+       <div class="msg"> <h3>It is never too late to be what you might have been! We provide classes for all ages!</h3></div>
+      
+       <div class="item">
+           <div class="img"><img src="https://images.unsplash.com/photo-1549916978-e3954eda7be0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="130" height="130"></div>
+           <div class="text">
+               <h3>Yoga For Adults (Beginners Class)</h3>
+               <p>We offer yoga classes for adults which gives you energy and health! We cannot always control what goes on outside. But you can control what goes on inside!</p>
+           </div>
+          </div>    
+        <div class="item">
+           <div class="img"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80" width="130" height="130"></div> 
+              <div class="text">
+               <h3>Yoga For Adults (Intermediate Class)</h3>
+               <p>Its time to build more strength, enhance balancing and increase flexibility. Believe yourself. All things are possible!</p>
+           </div>
+        </div> 
+          <div class="item">
+            <div class="img"><img src="assets/images/yogapics/img (39).jpg"  width="130" height="130"></div>  
+             <div class="text">
+               <h3>Yoga For Kids (Ages 5-8years)</h3>
+               <p>Build strong, flexible, and energetic children with yoga! Meditation helps to look inside and make vision clear!</p>
+           </div>
+        </div> 
+        <div class="item">
+            <div class="img"><img src="assets/images/yogapics/img (36).jpg" width="130" height="130"></div>  
+             <div class="text">
+               <h3>Yoga For Kids (Ages 9-12years)</h3>
+               <p>Give your children an opportunity to know themselves from inside! And help them to go through physical, social, emotional and cognitive development with peaceful mind!</p>
+           </div>
+        </div> 
+        <div class="item">
+            <div class="img"><img src="assets/images/yogapics/img (40).jpg" width="130" height="130"></div>  
+             <div class="text">
+               <h3>Yoga For Teenagers</h3>
+               <p>Yoga will help your child to start calmly heading down the path towards becoming a healthy responsible adult and gain lots of skills. Meditation will help them to stick to the roots and stay away from wrong crowd!</p>
+           </div>
+        </div> 
+        
+
+      </div>
+   </section>
+   
+   <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000);    
+}
+</script>
+
+   <script type="text/javascript">
+      var blink = document.getElementById('blink');
+      setInterval(function() {
+        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+      }, 1000);
+    </script>
+   
+   
+   </body>

@@ -1,0 +1,83 @@
+
+.section-desc2{
+    display:flex;
+    min-height:1100px;
+    background: url(../images/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   
+
+.section-desc2  .msg{
+    display:flex;
+   align-items:center;
+   justify-content:center;
+   text-shadow: 1px 1px  #888888;
+   min-height:100px;
+   
+}
+.section-desc2  .msg h3{
+    font-size:30px;
+}
+
+.section-desc2 .container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+     font-family: 'Acme', sans-serif;
+}
+
+.section-desc2 .item{
+    display:flex;
+    background:#ccffff;
+    min-height:150px;
+    border: 1px solid black;
+      box-shadow: 3px 5px 4px 5px #888888;
+       color:black;
+  font-size:19px;
+}
+
+.section-desc2 .item:hover{
+   background:#a5e5ff; 
+}
+
+.section-desc2 .item .img{
+    display:flex;
+    flex-basis:13%;
+    align-items:center;
+    justify-content:center;
+    
+
+}
+
+.section-desc2 .item img{
+     border: 1px solid black;
+}
+
+
+.section-desc2 .item .text{
+     
+     display:flex;
+     flex-basis:87%;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+       .section-desc2{
+           min-height:1400px;
+       }
+       .section-desc2  .msg{
+            text-align:center;
+       }
+       .section-desc2 .item .img{
+           padding:5px;
+       }
+}

@@ -1,0 +1,116 @@
+
+
+
+<head>
+     <title>Ray Yoga</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+     
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="assets/stylesheets/landing.css">
+ <link rel="stylesheet" href="assets/stylesheets/reviews.css">
+ <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/b478047b8b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <section class="section1">
+    <sidebar>
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage3.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage7.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage6.png"  width="600" height="790">
+    <img class="mySlides w3-animate-fading" src="assets/images/poonamimage8.png"  width="600" height="790">
+    </sidebar>
+
+    <mainbar>
+        <main1>
+        <a href="index.html"><img class="logo"src="assets/images/RaYoga1.png"  width="150" height="150"></a>
+        <h1>Ray</h1>
+        <h3> Yoga</h3>
+        </main1>
+        <main2>
+            <div class="nav-bar">
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="index.html">Classes</a>
+          
+                  <ul class="dropdown">
+                      <li><a href="description.html">All Classes</a></li>
+                      <li><a href="schedule.html">Schedule</a></li>
+                      <li><a href=""></a></li>
+                  </ul>
+            </li>
+           <li><a href="photos.html">Gallery</a></li>
+           <li><a href="reviews.html">Reviews</a></li>
+           <li><a href="about.html">About</a></li>
+        </ul>
+         
+    </div>
+   
+ </main2>
+ <main3><h3 class="message"><p id="head-line">"Namaste and Welcome to Ray Yoga! </p><p>The way of living towards a healthy mind in a healthy body!
+ Breathing techniques and meditation along with asana practices!"</p>
+ <p>We work to make you happy and healthy!</p>
+ <p>"Do not try to fix whatever comes in your life. Fix yourself in such a way that whatever comes, you will be fine."</p>
+ <p id="guru-name">-Sadhguru</p>
+ </h3></main3>
+    </mainbar>
+   </section>
+   <section class="section-desc2">
+       <div class="container">
+       <div class="msg"> <h3>Have a balance of perfect body and calm soul! The self-control is distributed here...</h3></div>
+      
+       <div class="item">
+               <div class="text">
+               <p>"It has been only two months from joining Poonam's yoga class and I already started getting the health benefits. Poonam is a wonderful and very friendly yoga instructor.
+               Thanks for being true to yoga! I wish you a great success!"</p>
+               <p>-Pranalee</p>
+           </div>
+          </div>    
+        <div class="item">
+              <div class="text">
+              <p>"I love your yoga class so much that my body starts feeling sore if I miss a class in the given week.Your technical details of each asana is really good! Always looking forward!"</p>
+               <p>-Neha</p>
+           </div>
+        </div> 
+        <div class="item">
+              <div class="text">
+              <p>"I had been to many yoga sessions in the past, but Poonam is one of the best instructors. Though I have attended her yoga sessions in zoom, her instructions were clear, very informative and helpful. 
+              She would give you an alternative approach in case you are not able to perform the asanaand make sure the same level of strechingis attained.
+              She involves everyone in yoga so that you dont realize the time. At the end of the session, the mind and body will be relaxed with zero stress. After attending her sessions, I got more interested in yoga and dont feel like missing any of her sessions."</p>
+               <p>-Babu Vijay Prasad Kamineni</p>
+            </div>
+        </div> 
+        <div class="item">
+             <div class="text">
+             <p>"After my first yoga session with Poonam, I was hooked.  I had never  before done any sort of yoga...but have had issues with back tightness and pain my whole adult life.  I have tried massages, physical therapy, and chiropractors.  Yoga is great it feels like I am healing from the inside.  Poonam is very attentive, even if she is teaching an advanced class she watches through the zoom screen to make sure all students are transitioning into and out of poses properly to ensure we do not strain anything.  She is always saying be careful with your neck :).  I am very thankful that my first yoga experience has been as student with Poonam." </p>
+              <p>-Pooja</p>
+           </div>
+        </div> 
+         <div class="item">
+             <div class="text">
+             <p>"I have been learning yoga with Poonam for close to 2 years now. Her passionate and detailed instructions make its to love yoga and enjoy doing it. My daughter also learns yoga and loves it. She makes it so much fun for kids to do each asana ! " </p>
+              <p>-Pavithra</p>
+           </div>
+        </div> 
+      </div>
+   </section>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000);    
+}
+</script>
+</body>
